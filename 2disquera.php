@@ -93,7 +93,6 @@ class Disquera
         $minutosDesde = $this->hora_desde["minutos"];
         $minutosHasta = $this->hora_hasta["minutos"];
 
-        ///la primera linea verifica si las horas son diferentes, si son iguales, verifica los minutos
 
         if (
             ($hora > $horaDesde || ($hora == $horaDesde && $minutos >= $minutosDesde)) &&
